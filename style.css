@@ -1,0 +1,34 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Poppins', sans-serif; }
+body { background-color: #0b0f19; color: #fff; }
+
+header { background-color: #161b2c; padding: 15px; position: sticky; top: 0; z-index: 1000; box-shadow: 0 4px 10px rgba(0,0,0,0.5); }
+.navbar { display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto; }
+.logo { font-size: 20px; font-weight: bold; color: #fff; }
+#myInput { padding: 10px 15px; border-radius: 20px; border: 1px solid #334155; width: 180px; background: #1e293b; color: #fff; outline: none; }
+
+.hero { text-align: center; padding: 40px 15px; background: linear-gradient(180deg, #161b2c 0%, #0b0f19 100%); }
+.hero h1 { font-size: 26px; color: #ffcc00; margin-bottom: 10px; }
+.hero p { opacity: 0.8; font-size: 14px; }
+.telegram-btn { margin-top: 20px; }
+.telegram-btn a { background: #0088cc; color: white; padding: 12px 25px; text-decoration: none; border-radius: 30px; font-weight: bold; font-size: 15px; display: inline-block; }
+
+.main-container { max-width: 1000px; margin: 20px auto; padding: 0 10px; }
+table { width: 100%; border-collapse: collapse; background: #161b2c; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 15px rgba(0,0,0,0.2); }
+th { background: #1e293b; padding: 15px; text-align: left; font-size: 14px; text-transform: uppercase; letter-spacing: 1px; }
+td { padding: 12px 15px; border-bottom: 1px solid #232a3d; vertical-align: middle; }
+
+.app-info { display: flex; align-items: center; gap: 15px; }
+.app-info img { width: 50px; height: 50px; border-radius: 12px; background: #fff; border: 2px solid #334155; }
+.app-info span { font-weight: 600; font-size: 15px; }
+
+.bonus-text { color: #22c55e; font-weight: bold; font-size: 15px; }
+.dl-btn { background: linear-gradient(90deg, #ef4444, #b91c1c); color: white; padding: 8px 18px; text-decoration: none; border-radius: 8px; font-weight: bold; font-size: 14px; box-shadow: 0 4px 6px rgba(239, 68, 68, 0.3); }
+
+footer { text-align: center; padding: 50px 20px; opacity: 0.5; font-size: 12px; }
+
+@media (max-width: 480px) {
+    .bonus-text { display: none; }
+    th:nth-child(2) { display: none; }
+    .logo { font-size: 18px; }
+    #myInput { width: 140px; }
+}
